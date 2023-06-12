@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201b2c;
+    justify-content: center;
+    font-size: larger;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    width: 38%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card>h1 {
+    color: #5014FF;
+    font-weight: 800;
+    margin: 0;
+    font-size: xxx-large;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.texto>input {
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.texto>label {
+    margin-bottom: 10px;
+    color: #f0ffffde
+}
+
+.texto>input::placeholder {
+    color: #f0ffff94;
+}
+
+.texto-1 {
+    width: 400px;
+    margin-top: 15px;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background:  #5014FF;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px black;
+}

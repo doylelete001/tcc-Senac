@@ -1,28 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
-body{
+body {
     margin: 0;
-font-family: 'Noto Sans' , sans-serif;
-}
-.container{
-display: flex;
-height: 100vh;
-width: 100vw;
-background-color: #201b2c;
-justify-content: center ;
-align-items: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-.container-direito{
+.container {
     display: flex;
-    width: 50vw;
     height: 100vh;
+    width: 100vw;
+    background-color: #201b2c;
     justify-content: center;
+    font-size: larger;
     align-items: center;
 }
-.card-do-login{
+
+.card {
     display: flex;
-    width: 60%;
+    width: 35%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -31,41 +24,48 @@ align-items: center;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
-.card-do-login > h1{
-    color: #00ff88;
+
+.card>h1 {
+    color: #5014FF;
     font-weight: 800;
     margin: 0;
+    font-size:xxx-large;
 }
-.texto-do-usuario{
+
+.texto {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     margin: 15px 0px;
 }
-.texto-do-usuario >input {
+
+.texto>input {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    width: 250px;
+    width: 400px;
     background-color: #514869;
     color: #f0ffffde;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
     box-sizing: border-box;
-}  
-.texto-do-usuario > label{
+}
+
+.texto>label {
     margin-bottom: 10px;
     color: #f0ffffde
 }
-.texto-do-usuario >input::placeholder{
+
+.texto>input::placeholder {
     color: #f0ffff94;
 }
-.texto{
-    width: 250px;
+
+.texto-1 {
+    width: 400px;
     margin-top: 15px;
-    padding: 16px 0px ;
+    padding: 16px 0px;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -73,17 +73,7 @@ align-items: center;
     font-weight: 800;
     letter-spacing: 3px;
     color: #2b134b;
-    background:  #00ff88;
+    background:  #5014FF;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-shadow: 0px 10px 40px -12px black;
 }
-.texto-1{
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #2b134b;
-    background: blue;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
-  
-}
-

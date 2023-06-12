@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201b2c;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-do-login {
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-do-login>h1 {
+    color: #5014FF;
+    font-weight: 800;
+    margin: 0;
+    font-size: xxx-large;
+}
+
+.texto-do-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.texto-do-usuario>input {
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.texto-do-usuario>label {
+    margin-bottom: 10px;
+    color: #f0ffffde
+}
+
+.texto-do-usuario>input::placeholder {
+    color: #f0ffff94;
+}
+
+.texto {
+    width: 400px;
+    margin-top: 15px;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #5014FF;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000056;
+}
