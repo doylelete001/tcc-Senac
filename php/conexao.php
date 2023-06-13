@@ -16,13 +16,16 @@ $resultado = $conexao->query($sql);
 
 // Verifica se há resultados
 if ($resultado->num_rows > 0) {
+
   // exibe  os dados na tela 
-  while($row = $resultado->fetch_assoc()) {
-    echo " - Nome: "       . $row["nome"] . 
-         " - Descrição: "  . $row["descricao"] . 
-  }
-} else {
-  echo "nenhum resultado"
+  while($row = $resultado->fetch_assoc()) 
+  
+    echo " - Nome: "       . $row["nome"] .
+         " - Descrição: "  . $row["descricao"] .
+         "<br>";
+}
+ else {
+  echo "nenhum resultado";
 }
 // Fechamento da conexão 
-$conn->close();
+$conexao->close();  
