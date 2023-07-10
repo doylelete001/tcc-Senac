@@ -9,7 +9,7 @@ body {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background-color: #201b2c;
+    background-color:  #16131d;
     font-size: larger;
     justify-content: center;
     align-items: center;
@@ -22,13 +22,13 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: #2f2841;
+    background-color:  #16131d;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
 
 .card-do-login>h1 {
-    color: #5014FF;
+    color:  #f0ffffde;
     font-weight: 800;
     margin: 0;
     font-size: xxx-large;
@@ -47,7 +47,7 @@ body {
     border-radius: 10px;
     padding: 15px;
     width: 400px;
-    background-color: #514869;
+    background-color: #9893a6;
     color: #f0ffffde;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
@@ -74,8 +74,11 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #2b134b;
-    background: #5014FF;
+    color:  #f0ffffde;
+    background: #16131d ;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00000056;
+}
+.container2 img {
+width: 60%;
 }

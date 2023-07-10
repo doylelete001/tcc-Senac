@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
+    background-color:  #16131d;
 }
 
 .container {
@@ -15,30 +17,38 @@
 }
 
 header {
-    background-color: #000000;
+    background-color:  #16131d;
     width: 100%;
-padding: 10px;
+    padding: 1px;
 
-}.logo, Botoens{
+}
+
+.logo,
+Botoens {
     width: 25%;
 }
-.logo img{
-    width: 100px;
+
+.logo img {
+    width: 80px;
 }
-.menu{
+
+.menu {
     width: 50%;
 }
-.menu nav a{
-    color: #ffffff;
+
+.menu nav a {
+    color: grey;
     text-decoration: none;
     padding-right: 50px;
-    font-size: 18px ;
+    font-size: 18px;
 }
-.Botoens button{
-width: 40px;
-height: 40px;
-background-image: linear-gradient(45deg, #AA1AF5,#daa520,#ffffff);
+
+.Botoens button {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, white,);
 }
-.Botoens button i{
+
+.Botoens button i {
     font-size: 20px;
-}   
+}
